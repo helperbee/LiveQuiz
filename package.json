@@ -7,7 +7,7 @@
   "scripts": {
     "client-build": "webpack build",
     "client-dev": "webpack --watch",
-    "server-dev": "nodemon server/server.ts"
+    "server-dev": "ts-node-esm server/server.ts"
   },
   "author": "",
   "license": "ISC",
